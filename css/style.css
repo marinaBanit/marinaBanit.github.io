@@ -1,0 +1,1184 @@
+/* line 1, ../../../../../Desktop/cours/uber/sass/style.sass */
+* {
+  font-family: Roboto, sans-serif;
+}
+
+/* line 1, ../../../../../Desktop/cours/uber/sass/_general.sass */
+header {
+  position: relative;
+}
+
+/* line 4, ../../../../../Desktop/cours/uber/sass/_general.sass */
+nav {
+  height: 50px;
+  background-color: #212121;
+}
+
+/* line 7, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* line 14, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.menu_link {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* line 19, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.menu_item {
+  border-right: 2px dotted black;
+  padding-right: 45px;
+}
+
+/* line 22, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.menu_item:last-child {
+  border-right: none;
+}
+
+/* line 25, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.subheader {
+  position: absolute;
+  width: 100%;
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 31, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.subheader_logo {
+  display: block;
+  margin-top: 16px;
+  max-width: 100%;
+}
+
+/* line 36, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.subheader_offitial {
+  margin-top: 6px;
+  opacity: 0.5;
+  font-size: 13px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* line 47, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.subheader_call {
+  margin-top: 19px;
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #fff;
+}
+
+/* line 57, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.subheader_phone {
+  display: block;
+  margin-top: 8px;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #fff;
+  line-height: 12px;
+}
+
+/* line 69, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.subheader_btn {
+  width: 172px;
+  height: 46px;
+  margin: 19px 0 2px 32px;
+  box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+  text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 2, ../../../../../Desktop/cours/uber/sass/_mixins.sass */
+.subheader_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 87, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.hamburger {
+  display: none;
+}
+
+/* line 90, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.promo {
+  padding: 150px 0 135px 0;
+  min-height: 800px;
+  background: url(../img/bg_big.jpg) center center/cover no-repeat;
+}
+
+/* line 94, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.promo_header {
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 101, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.promo_subheader {
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 108, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.promo_descr {
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  margin-top: 23px;
+}
+
+/* line 118, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.promo_btn {
+  display: block;
+  width: 259px;
+  height: 63px;
+  margin: 118px auto 0 auto;
+  padding: 25px 39px;
+  box-shadow: inset 0px -4px 0 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+  text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 2, ../../../../../Desktop/cours/uber/sass/_mixins.sass */
+.promo_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 137, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.label {
+  position: relative;
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 150, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.label_white {
+  background-color: #fff;
+  color: #000;
+}
+
+/* line 154, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.title {
+  position: relative;
+  margin-bottom: 0;
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  line-height: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 165, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.title_white {
+  color: #fff;
+}
+
+/* line 168, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.subtitle {
+  position: relative;
+  margin-top: 19px;
+  color: #222222;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 176, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.subtitle_white {
+  color: #fff;
+}
+
+/* line 179, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.reasons {
+  padding: 71px 0 65px 0;
+}
+
+/* line 181, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.reasons_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+/* line 186, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.reasons_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 26px;
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+}
+
+/* line 195, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.reasons_descr {
+  width: 343px;
+}
+
+/* line 197, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.reasons_descr_subtitle {
+  line-height: 21px;
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+/* line 202, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.reasons_descr_text {
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+/* line 208, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.mobile {
+  min-height: 864px;
+  padding: 48px 0 79px 0;
+  background: url("../img/bg_white.png") center center/cover no-repeat;
+}
+
+/* line 212, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.mobile .row {
+  margin-top: 32px;
+}
+
+/* line 214, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.mobile_item {
+  position: relative;
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  margin-bottom: 19px;
+  padding-top: 92px;
+}
+
+/* line 221, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.mobile_item_1 {
+  background: url("../img/bg1.png") center center/cover no-repeat;
+}
+
+/* line 223, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.mobile_item_2 {
+  background: url("../img/bg2.png") center center/cover no-repeat;
+}
+
+/* line 225, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.mobile_item_3 {
+  background: url("../img/bg3.png") center center/cover no-repeat;
+}
+
+/* line 227, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.mobile_item_4 {
+  background: url("../img/bg4.png") center center/cover no-repeat;
+}
+
+/* line 229, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.mobile_item_5 {
+  background: url("../img/bg5.png") center center/cover no-repeat;
+}
+
+/* line 231, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.mobile_item_6 {
+  background: url("../img/bg6.png") center center/cover no-repeat;
+}
+
+/* line 233, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.mobile_item_subtitle {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 240, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.mobile_item_plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 26px;
+  height: 26px;
+  background-color: #000000;
+  margin: 0 auto;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+/* line 255, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.choice {
+  position: relative;
+  min-height: 895px;
+  padding: 57px 0 138px 0;
+  background: url("../img/bg_white.png") center center/cover no-repeat;
+}
+
+/* line 260, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.choice_car {
+  position: relative;
+  display: block;
+  margin: 56px auto 0 auto;
+  z-index: 2;
+}
+
+/* line 265, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.choice_descr {
+  text-align: center;
+  color: #222222;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+/* line 271, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.choice .black {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 499px;
+  width: 100%;
+  background-color: #070716;
+  z-index: 1;
+}
+
+/* line 280, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.require {
+  padding: 68px 0 84px 0;
+}
+
+/* line 282, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.require_block {
+  margin: 33px 0;
+}
+
+/* line 284, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.require_block_nmb {
+  margin-bottom: 0px;
+}
+
+/* line 286, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.require_title {
+  font-size: 22px;
+  font-weight: 400;
+  color: #1ca8c3;
+}
+
+/* line 290, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.require_list {
+  list-style-type: none;
+  padding-left: 50px;
+  margin-top: 22px;
+}
+
+/* line 294, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.require_list li {
+  position: relative;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+/* line 300, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.require_list li:before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  left: -32px;
+  top: 3px;
+  width: 21px;
+  height: 20px;
+  background: url("../img/check_blue.png") center center/cover no-repeat;
+}
+
+/* line 309, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.require_descr {
+  color: #1ca8c3;
+}
+
+/* line 312, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.require .warning .require_title {
+  color: #ff5656;
+}
+
+/* line 316, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.require .warning .require_list li:before {
+  background: url("../img/check_red.png") center center/cover no-repeat;
+}
+
+/* line 319, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.map {
+  height: 717px;
+  padding: 49px 0 49px 0;
+  background-color: #080816;
+  background: url("../img/map.png") center center/cover no-repeat;
+}
+
+/* line 324, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.map_link {
+  margin: 486px 57px 0 56px;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+/* line 332, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.map_link a {
+  color: #1fbad6;
+}
+
+/* line 335, ../../../../../Desktop/cours/uber/sass/_general.sass */
+footer {
+  padding: 14px 23px 39px 23px;
+}
+
+/* line 338, ../../../../../Desktop/cours/uber/sass/_general.sass */
+footer a:hover {
+  text-decoration: none;
+}
+
+/* line 341, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.footer_divider {
+  width: 299px;
+  height: 4px;
+  background-color: #1fbad6;
+  margin: 0 auto;
+}
+
+/* line 346, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 32px;
+}
+
+/* line 351, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.footer_wrapper > div {
+  width: 33%;
+}
+
+/* line 353, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.footer_wrapper > div:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 356, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.footer_social {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 360, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.footer_social_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 4px;
+  width: 32px;
+  height: 32px;
+  background-color: #070716;
+  border-radius: 100%;
+}
+
+/* line 369, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.footer_social_item i {
+  color: #fff;
+}
+
+/* line 371, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.footer_links {
+  width: 390px;
+  margin: 0 auto;
+}
+
+/* line 374, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.footer_links_main {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+/* line 378, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.footer_links_main a {
+  color: #070716;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* line 383, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.footer_links_sub {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* line 387, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.footer_links_sub a {
+  color: #999999;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* line 392, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.footer_links_lang {
+  display: block;
+  margin: 0 auto;
+  color: #1fbad6;
+  font-size: 11px;
+  font-weight: 400;
+  margin-top: 19px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 402, ../../../../../Desktop/cours/uber/sass/_general.sass */
+.xs-visible {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  /* line 3, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .menu_item {
+    padding-right: 20px;
+  }
+  /* line 5, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .menu_link {
+    font-size: 13px;
+  }
+  /* line 8, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .promo_header {
+    font-size: 50px;
+  }
+  /* line 11, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .reasons_block {
+    align-items: flex-start;
+  }
+  /* line 13, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .reasons_descr {
+    width: 300px;
+  }
+  /* line 16, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .mobile_item {
+    width: 290px;
+  }
+  /* line 18, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .mobile_item_subtitle {
+    font-size: 22px;
+  }
+  /* line 20, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .choice {
+    padding: 55px 0;
+    min-height: 840px;
+  }
+  /* line 24, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .require br {
+    display: none;
+  }
+  /* line 27, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .footer_wrapper > div {
+    width: 50%;
+  }
+  /* line 29, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .footer_wrapper > div:nth-child(1) {
+    width: 25%;
+  }
+  /* line 31, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .footer_wrapper > div:nth-child(3) {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  /* line 35, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .footer_mobile {
+    display: flex;
+  }
+  /* line 37, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .footer_mobile a {
+    margin: 0 3px;
+  }
+  /* line 39, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .footer_mobile a img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 42, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .title {
+    font-size: 28px;
+  }
+  /* line 45, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .menu_item {
+    padding-right: 8px;
+  }
+  /* line 47, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .menu_link {
+    font-size: 10px;
+  }
+  /* line 51, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .subheader_logo img {
+    width: 100%;
+  }
+  /* line 53, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .subheader_official {
+    font-size: 11px;
+  }
+  /* line 55, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .subheader_phone {
+    font-size: 18px;
+  }
+  /* line 57, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .subheader_btn {
+    margin-top: 21px;
+    height: 40px;
+    width: 100%;
+  }
+  /* line 62, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .promo_header {
+    font-size: 40px;
+  }
+  /* line 64, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .promo_subheader {
+    font-size: 30px;
+  }
+  /* line 67, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .reasons_block {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 70, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .reasons_round {
+    margin-right: 0;
+  }
+  /* line 72, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .reasons_descr {
+    width: 300px;
+    margin-top: 20px;
+  }
+  /* line 75, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .choice {
+    min-height: 800px;
+  }
+  /* line 77, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .choice_img {
+    width: 100%;
+  }
+  /* line 79, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .world {
+    min-height: 650px;
+  }
+  /* line 82, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .footer_wrapper {
+    flex-wrap: wrap;
+  }
+  /* line 84, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .footer_wrapper > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  /* line 89, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .footer_wrapper > div:nth-child(1) {
+    width: 100%;
+  }
+  /* line 91, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .footer_wrapper > div:nth-child(3) {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 95, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .title {
+    margin-top: 25px;
+  }
+  /* line 97, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.6s all;
+  }
+  /* line 109, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .menu_active {
+    left: 0;
+  }
+  /* line 111, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .menu_item {
+    padding-right: 0;
+    border: none;
+    margin: 10px 0;
+  }
+  /* line 115, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .menu_link {
+    font-size: 20px;
+  }
+  /* line 117, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 12px;
+  }
+  /* line 125, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 2px;
+    transition: 0.5s all;
+  }
+  /* line 133, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 135, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 137, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 139, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 141, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .xs-hidden {
+    display: none;
+  }
+  /* line 143, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .xs-visible {
+    display: block;
+  }
+  /* line 146, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .subheader_phone {
+    display: block;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  /* line 154, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .subheader_btn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  /* line 161, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .promo_header {
+    line-height: 45px;
+  }
+  /* line 163, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .reasons {
+    padding: 40px 0;
+  }
+  /* line 165, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .reasons_descr {
+    width: 350px;
+  }
+  /* line 167, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .reasons_subtitle {
+    text-align: center;
+  }
+  /* line 169, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .reasons_text {
+    margin-top: 10px;
+  }
+  /* line 171, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .mobile {
+    padding: 40px 0;
+  }
+  /* line 173, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .choice {
+    min-height: 600px;
+    padding: 40px 0;
+  }
+  /* line 176, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .require {
+    padding: 40px 0;
+  }
+  /* line 178, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .world {
+    min-height: 450px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 181, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  nav {
+    width: 320px;
+    height: 30px;
+    position: fixed;
+    z-index: 3;
+  }
+  /* line 186, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  header {
+    height: 30px;
+  }
+  /* line 188, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .title {
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 16px;
+  }
+  /* line 192, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .subtitle {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 11px;
+  }
+  /* line 196, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .subheader {
+    height: 60px;
+    top: 30px;
+  }
+  /* line 199, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .subheader_offitial {
+    display: none;
+  }
+  /* line 201, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .subheader_logo {
+    margin-top: 16px;
+  }
+  /* line 203, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .subheader_phone {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 11px;
+  }
+  /* line 208, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .subheader_btn {
+    width: 110px;
+    height: 22px;
+    font-size: 9px;
+    margin-top: 6px;
+  }
+  /* line 213, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .subheader_btn:hover {
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  }
+  /* line 215, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .promo {
+    min-height: 400px;
+    padding: 93px 0 35px 0;
+  }
+  /* line 218, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .promo_descr {
+    display: none;
+  }
+  /* line 220, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .promo_header {
+    font-size: 30px;
+    padding: 0 24px;
+    line-height: 35px;
+  }
+  /* line 224, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .promo_subheader {
+    font-size: 20px;
+    margin-top: 33px;
+    padding: 0 10px;
+    line-height: 30px;
+  }
+  /* line 229, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .promo_btn {
+    width: 210px;
+    height: 50px;
+    height-margin-top: 18px;
+    font-size: 12px;
+  }
+  /* line 234, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .promo_btn:hover {
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  }
+  /* line 236, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .menu {
+    width: 85%;
+    z-index: 3;
+  }
+  /* line 239, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .menu_item {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+  }
+  /* line 243, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .menu_link {
+    display: block;
+  }
+  /* line 248, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(5px) rotate(-45deg);
+  }
+  /* line 250, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(5px) rotate(45deg);
+  }
+  /* line 252, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .reasons {
+    padding: 22px 0 36px 0;
+  }
+  /* line 254, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .reasons_block {
+    margin-top: 26px;
+  }
+  /* line 256, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .reasons_round {
+    width: 100px;
+    height: 100px;
+  }
+  /* line 259, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .reasons_descr {
+    width: 100%;
+    margin-top: 27px;
+  }
+  /* line 262, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .reasons_subtitle {
+    font-size: 16px;
+    text-align: left;
+  }
+  /* line 265, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .reasons_text {
+    margin-top: 0;
+  }
+  /* line 267, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .mobile {
+    padding: 20px 0 40px 0;
+  }
+  /* line 269, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .mobile .row {
+    margin-top: 30px;
+  }
+  /* line 271, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .mobile_item {
+    height: 254px;
+    padding: 81px 40px 0 40px;
+  }
+  /* line 274, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .mobile_item_subtitle {
+    font-size: 18px;
+    line-height: 31px;
+  }
+  /* line 277, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .mobile_item_plus {
+    bottom: 28px;
+  }
+  /* line 280, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .mobile_item_plus:hover:before, .mobile_item_plus:hover:after {
+    background-color: #1eacc7;
+  }
+  /* line 282, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .choice {
+    padding: 25px 0 33px 0;
+    min-height: 390px;
+    background: #000;
+  }
+  /* line 286, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .choice_car {
+    width: 300px;
+    margin-top: 35px;
+  }
+  /* line 289, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .choice_descr {
+    margin-top: 23px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  /* line 295, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .choice .black {
+    display: none;
+  }
+  /* line 297, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .hidden-320 {
+    display: none;
+  }
+  /* line 299, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .require {
+    padding: 25px;
+  }
+  /* line 301, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .require_block {
+    margin: 30px 0 0 0;
+  }
+  /* line 303, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .require_title {
+    font-size: 16px;
+  }
+  /* line 305, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .require_list {
+    padding-left: 30px;
+    margin-top: 5px;
+  }
+  /* line 308, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .require_list li {
+    font-size: 14px;
+    margin-bottom: 5px;
+    line-height: 20px;
+  }
+  /* line 312, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .require_descr {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  /* line 315, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .world {
+    min-height: 360px;
+    padding: 25px 0 30px 0;
+  }
+  /* line 318, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .world_link {
+    width: 200px;
+    display: block;
+    bottom: 30px;
+    line-height: 15px;
+  }
+  /* line 323, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  footer {
+    padding: 25px 0 20px 0;
+  }
+  /* line 326, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .footer_divider {
+    width: 253px;
+    margin: 0 auto;
+  }
+  /* line 329, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .footer_wrapper {
+    padding-top: 22px;
+  }
+  /* line 331, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .footer_wrapper > div {
+    margin-bottom: 20px;
+  }
+  /* line 333, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .footer_wrapper > div:nth-child(1) {
+    order: 2;
+  }
+  /* line 335, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .footer_wrapper > div:nth-child(2) {
+    order: 1;
+  }
+  /* line 337, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .footer_wrapper > div:nth-child(3) {
+    order: 3;
+  }
+  /* line 339, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .footer_links {
+    width: 290px;
+  }
+  /* line 341, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .footer_links_main {
+    padding: 0;
+    font-size: 14px;
+  }
+  /* line 344, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .footer_links_sub {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* line 347, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .footer_links_sub a {
+    margin: 0 7px;
+  }
+  /* line 349, ../../../../../Desktop/cours/uber/sass/_media.sass */
+  .footer_links_lang {
+    margin-top: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
