@@ -900,7 +900,7 @@ footer a:hover {
 @media (max-width: 575px) {
   /* line 181, ../../../../../Desktop/cours/uber/sass/_media.sass */
   nav {
-    width: 320px;
+    width: 100%;
     height: 30px;
     position: fixed;
     z-index: 3;
@@ -978,7 +978,7 @@ footer a:hover {
   .promo_btn {
     width: 210px;
     height: 50px;
-    height-margin-top: 18px;
+    margin-top: 18px;
     font-size: 12px;
   }
   /* line 234, ../../../../../Desktop/cours/uber/sass/_media.sass */
